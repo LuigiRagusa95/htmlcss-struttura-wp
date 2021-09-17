@@ -1,7 +1,40 @@
+/* RESET */
 *,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* UTILITIES */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mb-16 {
+    margin-bottom: 16px !important;
+}
+
+.px-16 {
+    padding: 0 16px !important;
+}
+
+/* HEADER */
+.container header {
+    width: 100%;
+    height: 72px; /* debug height */
+    background: #e579e6;
+}
+
+/* HERO */
+.container > section {
+    width: 100%;
+    height: 288px; /* debug height */
+    background-color: #e1d67a;
+}
+
+/* MAIN */
+.container > main {
 }
